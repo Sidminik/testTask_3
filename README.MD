@@ -52,3 +52,14 @@
 	- для чисел - количество, минимальное и максимальное значения, сумма и среднее;
 	- для строк - количество, размер самой короткой и самой длинной строки.
 - Примечание: в случае ввода пользователем обоих аргументов (-s и -f) выводиться будет только полная статистика.
+
+### Примеры корректного ввода командной строки, имен файлов и дополнительных флагов:
+- java -jar app-1.jar in1.txt
+- java -jar app-1.jar in1.txt in2.txt
+- java -jar app-1.jar -a in1.txt in2.txt
+- java -jar app-1.jar -p sample- in1.txt in2.txt
+- java -jar app-1.jar -p sample- -a in1.txt in2.txt
+- java -jar app-1.jar -o /some/path -p sample- in1.txt in2.txt
+- java -jar app-1.jar -o /some/path -p sample- -a in1.txt in2.txt
+- java -jar app-1.jar -o /some/path -p sample- -s in1.txt in2.txt
+- java -jar app-1.jar -o /some/path -p sample- -a -f in1.txt in2.txt
